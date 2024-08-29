@@ -6,7 +6,6 @@ public class SumOfNonPrimeIndexes {
                 sum += input1[i];
         return sum;
     }
-
     public static boolean isPrime(int input1) {
         if (1 == input1 || 0 == input1)
             return false;
